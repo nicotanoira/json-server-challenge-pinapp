@@ -1,7 +1,7 @@
 {
   "name": "alurageek-api",
   "version": "1.0.0",
-  "description": "Products for Alura Geek fake store api",
+  "description": "Products for PinApp Challenge fake store api",
   "main": "index.js",
   "scripts": {
     "start": "node api/server.js"
@@ -11,13 +11,13 @@
     "url": "git+ssh://git@github.com/SofiDevO/alurageek-API.git"
   },
   "keywords": [
-    "alura",
-    "alurageek",
+    "alurageek-repo-creator",
     "json-server",
     "javascript",
-    "API"
+    "API",
+    "mock"
   ],
-  "author": "Sofidev, contact@itssofi.dev",
+  "author": "Sofidev, contact@itssofi.dev | Nico Tanoira fork for challenge @nicotanoira",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/SofiDevO/alurageek-API/issues"
@@ -25,7 +25,6 @@
   "homepage": "https://github.com/SofiDevO/alurageek-API#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "json-serve": "^0.1.0",
     "json-server": "^0.17.3"
   }
 }
